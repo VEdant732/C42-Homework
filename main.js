@@ -1,18 +1,15 @@
 //function 2
 
-Var
-
-
-function multiply(value1,value2){
-    var storage= value1*value2
-    document.getElementById("display-multiply").innerHTML ="product :"+ storage;
-console.log(storage);  
+function to_farenheit(value1){
+    var storage= (value1*9/5)+32
+    return storage
 }
-multiply( 1,9/5);
+ var f=to_farenheit(20);
+ console.log(f)
 
-function multiply(value1,value2){
-    var storage= value1*value2
-    document.getElementById("display-multiply").innerHTML ="product :"+ storage;
-console.log(storage);  
+function to_celsius(value1){
+    var storage= (value1-32)*5/9
+    return 
 }
-multiply( 1,5/9);
+var c=to_celsius( 30);
+console.log(c)
